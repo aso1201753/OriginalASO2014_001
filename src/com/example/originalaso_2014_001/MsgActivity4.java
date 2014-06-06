@@ -6,7 +6,7 @@ import android.os.Bundle;
 public class MsgActivity4 extends Activity {
 
 	public static void main(String[] args){
-	System.out.println("大凶");
+
 	}
 
 

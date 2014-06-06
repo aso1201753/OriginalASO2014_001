@@ -6,7 +6,7 @@ import android.os.Bundle;
 public class MsgActivity3 extends Activity {
 
 	public static void main(String[] args){
-		System.out.println("凶");
+
 		}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

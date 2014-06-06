@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 public class MsgActivity2 extends Activity {
 	public static void main(String[] args){
-		System.out.println("吉");
+
 		}
 
 	@Override

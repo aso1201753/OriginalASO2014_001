@@ -22,10 +22,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity></activity>
-        <MsgActivity android:name="com.example.originalaso_2014_001.MsgActivity" android:label="@string/app_name"></MsgActivity>
-        <MsgActivity2 android:name="com.example.originalaso_2014_011.MsgActivity2" android:label="@string/app_name"></MsgActivity2>
-        <MsgActivity3 android:name="com.example.originalaso_2014_011.MsgActivity3" android:label="@string/app_name"></MsgActivity3>
-        <MsgActivity4 android:name="com.example.originalaso_2014_011.MsgActivity2" android:label="@string/app_name"></MsgActivity4></application>
+
+        <activity android:name="com.example.originalaso_2014_001.MsgActivity" android:label="@string/app_name">
+         <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name="com.example.originalaso_2014_001.MsgActivity2" android:label="@string/app_name"> <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name="com.example.originalaso_2014_001.MsgActivity3" android:label="@string/app_name"> <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name="com.example.originalaso_2014_001.MsgActivity4" android:label="@string/app_name"> <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity></application>
 
 </manifest>
