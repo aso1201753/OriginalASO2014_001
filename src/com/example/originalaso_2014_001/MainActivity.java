@@ -46,32 +46,39 @@ View.OnClickListener
 			int ran = rnd.nextInt(4);
 
 
-			Intent intent = null;
+			Intent intent = new Intent(MainActivity.this, MsgActivity.class);
+			intent = new Intent(MainActivity.this, MsgActivity2.class);
+			intent = new Intent(MainActivity.this, MsgActivity3.class);
+			intent = new Intent(MainActivity.this, MsgActivity4.class);
+			startActivity(intent);
 
 	switch(ran){
 		case 0:
 
 			intent = new Intent(MainActivity.this, MsgActivity.class);
-			startActivity(intent);
+
 			break;
 		case 1:
 
 		intent = new Intent(MainActivity.this, MsgActivity2.class);
-		startActivity(intent);
+
 		break;
 
 		case 2:
 
 		intent = new Intent(MainActivity.this, MsgActivity3.class);
-		startActivity(intent);
+
 		break;
 
 		case 3:
 
 		intent = new Intent(MainActivity.this, MsgActivity4.class);
-		startActivity(intent);
+
 		break;
 			}
+
+	intent.putExtra("name", inputMsg);
+	startActivity(intent);
 	}
 
 

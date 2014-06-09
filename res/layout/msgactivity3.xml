@@ -26,6 +26,14 @@
             android:scaleType="fitXY"
             android:src="@drawable/kyou" />
 
+        <TextView
+            android:id="@+id/txvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignParentTop="true"
+            android:text="TextView" />
+
     </RelativeLayout>
 
 </LinearLayout>
